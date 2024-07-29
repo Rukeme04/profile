@@ -1,0 +1,215 @@
+body{
+    background-color: black;
+    overflow-y: scroll;
+}
+
+
+.bg-image{
+    background-image: url(./images/rukeme2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+ /* .navbar-custom{
+    background-color: transparent;
+    transition: background-color 0.5s;
+    color: white;
+} */
+
+#navbarScroll{
+    background-color: black;
+}
+
+.fixed-top{
+    background-color: black;
+
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #4e8408;
+}
+
+/* .navColor{
+    color:white;
+} */
+
+/* .navColor:hover{
+    color: #94FC08;
+
+} */
+
+/* .bg-color{
+    color: white;
+} */
+
+ul > li > a{
+    letter-spacing: 0.5rem;
+}
+
+.nav-underline{
+    transition: 0.5s ease-in-out;
+}
+
+.display-1{
+    font-weight: 700;
+}
+
+.skill{
+    font-weight:800;
+}
+
+.backSkill{
+    background-color: black;
+}
+
+.backPortfolio{
+    background-color: black;
+}
+
+.backAbout{
+    background-color: black;
+}
+
+.backContact{
+    background-color: black;
+}
+
+/* .progress-margin{
+    margin-bottom: rem;
+}
+
+.progress-bar-transition {
+    transition: width .3s ease;
+  } */
+
+.screen{
+    height: 100%;
+}
+
+.mobile{
+    height: 30rem;
+    object-fit: contain;
+}
+
+.landing{
+    height: 30rem;
+    object-fit: contain;
+}
+
+.about{
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.me{
+    font-weight: 800;
+}
+
+.myimg{
+    height: 30rem;
+    object-fit: contain;
+}
+
+.touch{
+    font-weight: 700;
+}
+
+.myinfo{
+    color: rgb(31, 24, 233);
+    opacity: 0.4;
+    font-weight: 700;
+}
+
+.myinfocont{
+    color: grey;
+}
+
+.experience{
+    font-weight: 600;
+    color: white;
+}
+
+/* textarea{
+    width: 50%;
+    border-radius: 0.2rem;
+} */
+/* 
+#94FC08 */
+
+.but{
+    background-color: rgb(31, 24, 233);
+    color: white;
+}
+
+.date{
+    position: relative;
+    bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.front{
+    color: white;
+    font-weight: 200;
+}
+
+.front:hover{
+    color: #94FC08;
+}
+
+.exp{
+    color: rgb(147, 144, 144);
+
+}
+
+.sec-exp{
+    position: relative;
+    top: 4.1rem;
+}
+
+.footer1{
+    /* background-color: black; */
+    height: 10rem;
+}
+
+.download{
+    background-color: #94FC08;
+    color: whitesmoke;
+    border-radius: 2rem;
+}
+
+.social{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* .form-control{
+    background-color: rgb(33, 32, 32);
+} */
+
+/* "height: 30rem; object-fit: contain */
+/* .first{
+    padding: 15rem;
+} */
+
+/* .first > p{
+    font-size: 500%;
+    font-weight: lighter;
+} */
+
+/* .first > h1{
+    font-size: 600%;
+    padding-top: 0.1rem;
+} */

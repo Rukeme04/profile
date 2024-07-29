@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navId" class="container-fluid">
+    <!-- <section class="container-fluid bg-image">
+        <ul class="nav nav-scrolled justify-content-center py-5 nav-underline  ">
+            <li class="nav-item">
+                <a class="nav-link link-light" href="http://">HOME</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link link-light" href="http://">PORTFOLIO</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link link-light" href="http://">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link link-light" href="http://">CONTACT</a>
+            </li>
+        </ul>
+    </section> -->
+        
+         <!-- HOME -->
+    <nav id="mymenu" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href=""></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent navbarScroll">
+                <ul class="navbar-nav   navbar-nav-scroll mx-auto mb-2 mb-lg-0 nav-underline " style="--bs-scroll-height: 100px;" >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page"  href="#mymenu1">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mymenu2">MY SKILLS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mymenu3">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mymenu4">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mymenu5">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#mymenu" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        class="scrollspy-example bg-body-tertiary  rounded-2" tabindex="0">
+
+        <section id="mymenu1" class="container-fluid bg-image text-center  mx-auto text-light ">
+            <div class="row align-items-center  text-light  min-vh-100">
+                <span class="display-2">Hello I'm <br><span class="display-1">Ikpe Rukeme</span></span>
+            </div>
+        </section>
+             
+         <!-- MY SKILLS -->
+        <section id="mymenu2" class="container-fluid backSkill mx-auto p-3">
+            <div class="text-center my-4 ">
+                <h1 class="text-light display-6">My <span class="skill">Skills</h1></span>
+            </div>
+            <div class="row justify-content-center align-items-center mx-3">
+                <div class="col-sm-12 col-md col-lg-3  ">
+                    <img class="w-50 d-block  p-3 mx-auto" src="./images/html-1.svg" alt="">
+                    <p class="text-light text-center fs-4">HTML</p>
+                </div>
+                <div class="col-sm-12 col-md col-lg-3 d-block justify-content-center">
+                    <img class="mx-auto d-block p-3 w-50" src="./images/css-3.svg" alt="">
+                    <P class="text-light text-center fs-4">CSS</P>
+                </div>
+                <div class="col-sm-12 col-md col-lg-3 d-block justify-content-center">
+                    <img class="mx-auto d-block p-3 w-50" src="./images/bootstrap-5-1.svg" alt="">
+                    <P class="text-light text-center fs-4 mt-3">BOOTSTRAP</P>
+                </div>
+                <div class="col-sm-12 col-md col-lg-3 d-block justify-content-center">
+                    <img class="mx-auto d-block p-3 w-50" src="./images/javascript-1.svg" alt="">
+                    <P class="text-light text-center fs-4">JAVASCRIPT</P>
+                </div>
+            </div>
+
+            <div>
+                <div class="row justify-content-center p-2 gap-5 ">
+                    <div class="col-sm-12 col-md-12 col-lg-4 ">
+                        <p class="text-light fs-4">HTML:</p>
+                        <div class="progress mb-2 w-100" role="progressbar" aria-label="Example 20px high"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 15px">
+                            <div class="progress-bar" style="width: 75%; background-color: orangered;"></div>
+                        </div>
+
+                        <p class="text-light fs-4">CSS:</p>
+                        <div class="progress w-100 " role="progressbar" aria-label="Example 20px high" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100" style="height: 15px">
+                            <div class="progress-bar " style="width: 75%; background-color: blue;"></div>
+                        </div>
+
+                        <p class="text-light fs-4 pb-0">Bootstrap:</p>
+                        <div class="progress w-100 " role="progressbar" aria-label="Example 20px high" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100" style="height: 15px">
+                            <div class="progress-bar " style="width: 75%; background-color: blueviolet;"></div>
+                        </div>
+
+                        <p class="text-light fs-4">Javascript:</p>
+                        <div class="progress w-100 " role="progressbar" aria-label="Example 20px high" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100" style="height: 15px;">
+                            <div class="progress-bar progress-bar-transition"
+                                style="width: 25%; background-color: yellow;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3">
+                        <p class="display-6 " style="color: grey;">My <span class="experience">Experience</p></span>
+                        <box-icon name='calendar-alt' flip='horizontal' color='#ffffff'></box-icon>
+                        <span class="text-light date ">March 13 - present</span>
+                        <p class="display-6 fs-3 front">Junior Front-end Developer</p>
+                        <p class="display-6 exp fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse minus eius rem natus.
+                            Voluptatum aliquid voluptas blanditiis.</p>
+
+                            <box-icon name='calendar-alt' flip='horizontal' color='#ffffff'></box-icon>
+                            <span class="text-light date ">March 13 - present</span>
+                            <p class="display-6 fs-3 front">Junior Front-end Developer</p>
+                            <p class="display-6 exp fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse minus eius rem natus.
+                                Voluptatum aliquid voluptas blanditiis.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 sec-exp pb-5">
+                        <!-- <p class="display-6 " style="color: grey;">My <span class="experience">Experience</p></span> -->
+                        <box-icon name='calendar-alt' flip='horizontal' color='#ffffff'></box-icon>
+                        <span class="text-light date ">March 13 - present</span>
+                        <p class="display-6 fs-3 front">Junior Front-end Developer</p>
+                        <p class="display-6 exp fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse minus eius rem natus.
+                            Voluptatum aliquid voluptas blanditiis.</p>
+
+                            <box-icon name='calendar-alt' flip='horizontal' color='#ffffff'></box-icon>
+                            <span class="text-light date ">March 13 - present</span>
+                            <p class="display-6 fs-3 front">Junior Front-end Developer</p>
+                            <p class="display-6 exp fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse minus eius rem natus.
+                                Voluptatum aliquid voluptas blanditiis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+                 <!-- PORTFOLIO -->
+        <section id="mymenu3" class="container-fluid backPortfolio  pt-5 pb-5 screen">
+            <div class="text-center  pb-5">
+                <h1 class="text-light display-6">Featured <span class="skill">Portfolio</h1></span>
+            </div>
+
+            <div class="row g-5 px-3 mx-auto">
+                <div class="col-sm-12 p-5 col-md col-lg-6  mx-auto">
+                    <div class="row g-1 mx-auto">
+                        <div class="col">
+                            <img class="w-100 mx-auto d-block landing" src="images/easybanking.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img class=" w-100 mx-auto d-block mobile" src="images/easy mobile.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img class=" w-100 mx-auto d-block mobile" src="images/easy mobile.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md col-lg-6  mx-auto">
+                    <div class="row g-1 mx-auto">
+                        <div class="col">
+                            <img class="w-100 mx-auto d-block landing" src="images/news.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img class=" w-100 mx-auto d-block mobile" src="images/news mobile.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <img class=" w-100 mx-auto d-block mobile" src="images/news mobile.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+         <!-- ABOUT ME -->
+        <section id="mymenu4" class="pt-5 backAbout">
+            <div class="row ">
+                <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <img class="w-75  d-block mx-auto myimg" src="./images/rukeme2.jpg" alt="">
+                </div>
+                <div class="col text-light px-5 pt-3">
+                    <p class="about text-center mb-4">ABOUT <span class="me">ME</p></span>
+                    <p class="fs-3 mb-3 lh-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
+                        rem odio
+                        eveniet enim
+                        mollitia.</p>
+                    <p class="fs-5 lh-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos harum quo esse
+                        debitis
+                        in sapiente corrupti deleniti error, consectetur vel, molestiae, soluta minima fugiat minus!</p>
+                         <br>
+                        <button class="download p-3" type="submit">Download CV</button>
+                </div>
+            </div>
+        </section> 
+     
+          <!-- CONTACT -->
+        <section id="mymenu5" class="container-fluid backContact pt-5">
+            <p class="display-6 text-light text-center">Get <span class="touch">In Touch</p></span>
+            <div class="row container-fluid p-5 g-5">
+                <div class="col">
+                    <p class="display-6 " style="color: grey;">Get In Touch</p>
+                    <form action="" method="post">
+                        <div>
+                            <input type="text" class="form-control mb-4 bg-light" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control bg-light mb-4 w-100" placeholder="Your Email">
+                        </div>
+                        <div>
+                            <input type="tel" class="form-control bg-light mb-4 w-100" placeholder="Your Phone">
+                        </div>
+                        <div>
+                            <textarea class="form-control w-75 mb-2" id="" rows="5"
+                                placeholder="Write a Message"></textarea>
+                        </div>
+                        <br>
+
+                        <button type="submit" class="btn w-25 but">Submit</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <p class="display-6 " style="color: grey;">My Contact Details</p>
+                    <p class="myinfo fs-5 mb-1">EMAIL</p>
+                    <p class="myinfocont fs-5 mb-3">wrukemeikpe@gmail.com</p>
+
+                    <p class="myinfo fs-5 mb-1">PHONE</p>
+                    <p class="myinfocont fs-5">+234 90 419 4199</p>
+
+                    <p class="myinfo fs-5 mb-1">ADDRESS</p>
+                    <p class="myinfocont fs-5">16, Ozumba Ubadiwe street<br> off Osun road <br> Zamfara state Nigeria
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark footer1">
+            <!-- <box-icon name='instagram-alt' type='logo' color='#94fc08' ></box-icon> -->
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="./images/facebook-circle-logo-48.png" c alt="">
+                <img src="./images/instagram-alt-logo-48.png" alt="">
+            </div>
+        </section>
+    </div>
+
+    
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
